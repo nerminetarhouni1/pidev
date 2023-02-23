@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="727.0" prefWidth="1478.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="gui.ConducteurController">
+   <children>
+      <TableView fx:id="tabconducteur" layoutX="459.0" layoutY="121.0" prefHeight="291.0" prefWidth="1509.0">
+         <columns>
+            <TableColumn fx:id="tabid_conducteur" prefWidth="117.0" text="id_conducteur" />
+            <TableColumn fx:id="tabcin_conducteur" prefWidth="141.0" text="cin_conducteur" />
+            <TableColumn fx:id="tabnom_conducteur" prefWidth="146.0" text="nom_conducteur" />
+            <TableColumn fx:id="tabprenom_conducteur" prefWidth="170.0" text="prenom_conducteur" />
+            <TableColumn fx:id="tabtelephone_conducteur" prefWidth="174.0" text="telephone_conducteur" />
+            <TableColumn fx:id="tabemeil_conducteur" prefWidth="151.0" text="email_conducteur" />
+            <TableColumn fx:id="tabville_conducteur" prefWidth="141.0" text="ville_conducteur" />
+            <TableColumn fx:id="tabmdp_conducteur" prefWidth="146.0" text="mdp_conducteur" />
+            <TableColumn fx:id="tabtype_de_permis" prefWidth="132.0" text="type_de_permis" />
+            <TableColumn fx:id="tabimage_conducteur" prefWidth="180.0" text="image_conducteur" />
+         </columns>
+      </TableView>
+      <Label layoutX="50.0" layoutY="59.0" text="id_conducteur :" />
+      <Label layoutX="50.0" layoutY="110.0" text="cin_conducteur :" />
+      <Label layoutX="50.0" layoutY="162.0" text="nom_conducteur :" />
+      <Label layoutX="50.0" layoutY="213.0" text="prenom_conducteur :" />
+      <Label layoutX="50.0" layoutY="256.0" text="telephone_conducteur :" />
+      <Label layoutX="50.0" layoutY="305.0" text="email_conducteur :" />
+      <Label layoutX="50.0" layoutY="353.0" text="ville_conducteur :" />
+      <Label layoutX="50.0" layoutY="401.0" text="mdp_conducteur :" />
+      <Label layoutX="50.0" layoutY="453.0" text="type_de_permis :" />
+      <Label layoutX="50.0" layoutY="506.0" text="image_conducteur :" />
+      <TextField fx:id="tftid_conducteur" layoutX="230.0" layoutY="54.0" />
+      <TextField fx:id="tftcin_conducteur" layoutX="230.0" layoutY="105.0" />
+      <TextField fx:id="tftnom_conducteur" layoutX="230.0" layoutY="157.0" />
+      <TextField fx:id="tftprenom_conducteur" layoutX="230.0" layoutY="208.0" />
+      <TextField fx:id="tfttelephone_conducteur" layoutX="230.0" layoutY="251.0" />
+      <TextField fx:id="tftemail_conducteur" layoutX="230.0" layoutY="300.0" />
+      <TextField fx:id="tftville_conducteur" layoutX="230.0" layoutY="348.0" />
+      <TextField fx:id="tftmdp_conducteur" layoutX="230.0" layoutY="396.0" />
+      <TextField fx:id="tfttype_de_permis" layoutX="230.0" layoutY="448.0" />
+      <TextField fx:id="tftimage_conducteur" layoutX="230.0" layoutY="501.0" />
+      <Button fx:id="btnadd_conducteur" layoutX="597.0" layoutY="557.0" mnemonicParsing="false" onAction="#add_conducteur" text="add" />
+      <Button fx:id="btnupdate_conducteur" layoutX="769.0" layoutY="557.0" mnemonicParsing="false" onAction="#update_conducteur" text="update" />
+      <Button fx:id="btndelete_conducteur" layoutX="940.0" layoutY="557.0" mnemonicParsing="false" onAction="#delete_conducteur" text="delete" />
+   </children>
+</AnchorPane>
